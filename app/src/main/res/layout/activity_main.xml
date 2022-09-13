@@ -40,8 +40,9 @@
             android:textColor="@color/white"
             android:textSize="20sp"
             android:textStyle="bold" />
+
         <TextView
-            android:id="@+id/address"
+            android:id="@+id/location"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/userName"
@@ -57,7 +58,7 @@
             android:id="@+id/linear_follow_layout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@id/address"
+            android:layout_below="@id/location"
             android:orientation="horizontal">
 
             <LinearLayout
@@ -69,6 +70,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/followers"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="500K"
@@ -92,6 +94,7 @@
                 android:orientation="vertical">
 
                 <TextView
+                    android:id="@+id/followings"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="258"
